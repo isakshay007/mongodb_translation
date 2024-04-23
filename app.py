@@ -29,7 +29,7 @@ st.title("Lyzr NL2MongoDB🧑🏼‍💻")
 st.markdown("### Welcome to the Lyzr NL2MongoDB!")
 st.markdown("Convert natural language queries into MongoDB commands effortlessly with Lyzr NL2MongoDB !!!")
 
-code = st.text_input("Enter your text: ",placeholder=f""""Type Natural Language Query here!""")
+code = st.text_input("Enter your text: ",placeholder=f"""Type Natural Language Query here!""")
 
 open_ai_text_completion_model = OpenAIModel(
     api_key=st.secrets["apikey"],
